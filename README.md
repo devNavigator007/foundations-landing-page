@@ -39,6 +39,7 @@ foundations-landing-page/
 ├── style.css
 └── videos
     └── sample-video-landing-page.mp4
+```
 
 ### Future Improvements
 
