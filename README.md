@@ -27,6 +27,8 @@ The project was built as part of my journey into frontend web development and my
 
 ### Project Structure
 
+```text
+foundations-landing-page/
 ├── README.md
 ├── images
 │   ├── chopta-valley-image.jpg
