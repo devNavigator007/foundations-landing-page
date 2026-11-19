@@ -2,6 +2,9 @@
 body {
     font-family: "Roboto", Arial, sans-serif;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -10,6 +13,9 @@ body {
     padding: 0 24px;
 }
 
+main {
+    flex: 1;
+}
 
 /* header-style */
 .header {
@@ -112,7 +118,6 @@ body {
 /* Information-section-style */
 .information-section {
     background-color: white;
-
 }
 
 .information-section .container {
@@ -193,3 +198,65 @@ body {
 
 /* Call-To-Action-style */
 
+.cta-section {
+    background-color: white;
+    margin: 150px auto;
+}
+
+.cta-section .container{
+    background-color: #3882F6;
+    border: #1f2937;
+    border-radius: 12px;
+    overflow: hidden;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 49px;
+    padding-right: 49px;
+    min-height: 150px;
+    
+}
+
+.cta-text h2 {
+    margin: 0 auto;
+    color: #e5e7eb;
+    font-weight: 700;
+}
+
+.cta-text p {
+    margin: 0 auto;
+    color: #e5e7eb;
+}
+
+.cta-box button {
+    border: 3px solid #e5e7eb;
+    color: #e5e7eb;
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 700;
+    font-size: larger;
+    cursor: pointer;
+}
+
+/* footer-style */
+.footer {
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+
+.footer-text {
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 24px;
+    word-spacing: 0.5rem;
+}
